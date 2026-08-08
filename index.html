@@ -1,28 +1,129 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-<title>Shawn Francis</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Shawn Francis | Portfolio</title>
+
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+
+<style>
+body{
+    background:#0f172a;
+    color:white;
+}
+
+.hero{
+    padding:80px 20px;
+    text-align:center;
+}
+
+.card{
+    background:#1e293b;
+    color:white;
+    border:none;
+}
+
+.skill{
+    display:inline-block;
+    padding:10px 18px;
+    margin:5px;
+    border-radius:20px;
+    background:#2563eb;
+}
+
+footer{
+    padding:20px;
+    text-align:center;
+}
+</style>
 </head>
+
 <body>
-<h1>Shawn Francis</h1>
 
-<h2>MCA Student</h2>
+<nav class="navbar navbar-dark bg-dark">
+<div class="container">
+<a class="navbar-brand" href="#">Shawn Francis</a>
+</div>
+</nav>
 
-<p>Welcome to my portfolio.</p>
+<section class="hero">
+<div class="container">
+<h1 class="display-3">Shawn Francis</h1>
+<p class="lead">MCA Student | Aspiring Software Developer</p>
 
-<h3>Skills</h3>
-<ul>
-<li>Java</li>
-<li>Spring Boot</li>
-<li>DBMS</li>
-<li>SQL</li>
-<li>Python</li>
-</ul>
-
-<h3>LinkedIn</h3>
-<a href="https://www.linkedin.com/in/shawn-francis-8063923ba">
-My LinkedIn Profile
+<a href="https://www.linkedin.com/in/shawn-francis-8063923ba" target="_blank" class="btn btn-primary m-2">
+LinkedIn
 </a>
+
+<a href="https://github.com/shawnfrancis578-collab" target="_blank" class="btn btn-light m-2">
+GitHub
+</a>
+</div>
+</section>
+
+<section class="container mb-5">
+<h2 class="mb-4">About Me</h2>
+
+<div class="card p-4">
+<p>
+I am an MCA student passionate about software development,
+Java, Spring Boot, Database Management Systems and problem solving.
+I enjoy building practical applications and continuously learning
+new technologies.
+</p>
+</div>
+</section>
+
+<section class="container mb-5">
+<h2 class="mb-4">Skills</h2>
+
+<div class="card p-4">
+<span class="skill">Java</span>
+<span class="skill">Spring Boot</span>
+<span class="skill">DBMS</span>
+<span class="skill">SQL</span>
+<span class="skill">Python</span>
+<span class="skill">Git</span>
+<span class="skill">GitHub</span>
+<span class="skill">HTML</span>
+</div>
+</section>
+
+<section class="container mb-5">
+<h2 class="mb-4">Projects</h2>
+
+<div class="card p-4">
+<h4>Personal Portfolio Website</h4>
+
+<p>
+Designed and developed a responsive personal portfolio website
+using HTML, CSS and Bootstrap to showcase skills,
+professional profile and projects.
+</p>
+
+<span class="badge bg-success">Personal Project</span>
+</div>
+</section>
+
+<section class="container mb-5">
+<h2 class="mb-4">Contact</h2>
+
+<div class="card p-4">
+<p>Email: your-email@example.com</p>
+
+<p>
+LinkedIn:
+<a href="https://www.linkedin.com/in/shawn-francis-8063923ba" target="_blank">
+View Profile
+</a>
+</p>
+</div>
+</section>
+
+<footer>
+<p>© 2026 Shawn Francis</p>
+</footer>
 
 </body>
 </html>
